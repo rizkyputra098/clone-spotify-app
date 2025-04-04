@@ -56,6 +56,23 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  
+  assets:
+  - assets/images/cover.jpg
+  - assets/images/playlist_cover.jpg
+  - assets/images/profile.jpg
+  - assets/images/playlists/doa_terima_kasih.jpeg
+  - assets/images/playlists/easy_on_me.jpeg
+  - assets/images/playlists/exile.jpeg
+  - assets/images/playlists/here_with_me.jpeg
+  - assets/images/playlists/imagination.jpeg
+  - assets/images/playlists/love.jpeg
+  - assets/images/playlists/membasuh.jpeg
+  - assets/images/playlists/oceans_engine.jpeg
+  - assets/images/playlists/one_more_light.jpeg
+  - assets/images/playlists/rehat.jpeg
+  - assets/images/playlists/satu_bulan.jpeg
+  - assets/images/playlists/wijayakusuma.jpeg
 
   # To add assets to your application, add an assets section, like this:
   # assets:
