@@ -8,7 +8,7 @@ class Clonescereenapp extends StatelessWidget {
     return MaterialApp(
       title: "Spotify CLone App",
       theme: ThemeData(
-        primaryColor: Colors.green,
+        primarySwatch: Colors.green,
       ),
       home: SongPlayListScreen(),
     );
@@ -19,9 +19,10 @@ class SongPlayListScreen extends StatelessWidget {
   const SongPlayListScreen({super.key});
 
   @override
-  Widget build(Object context) {
+  Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        backgroundColor: const Color(0xFF191414),
         appBar: AppBar(
           backgroundColor: Colors.transparent,
           centerTitle: true,
@@ -29,7 +30,7 @@ class SongPlayListScreen extends StatelessWidget {
             "Spotify Playlist",
             style: TextStyle(
               fontSize: 24,
-              color: Colors.black,
+              color: Colors.white,
               fontWeight: FontWeight.bold,
             ),
           ),
@@ -82,7 +83,7 @@ class SongPlayListScreen extends StatelessWidget {
                     radius: 16,
                     backgroundImage: AssetImage("assets/images/profile.jpg"),
                   ),
-                  SizedBox(height: 12.0),
+                  SizedBox(height: 20.0, width: 12.0),
                   Text(
                     "Rizky Putra",
                     style: TextStyle(
@@ -93,6 +94,28 @@ class SongPlayListScreen extends StatelessWidget {
                   ),
                 ],
               ),
+              SizedBox(
+                height: 10,
+              ),
+              Row(
+                children: [
+                  Icon(
+                    Icons.language,
+                    color: Colors.grey,
+                  ),
+                  SizedBox(
+                    width: 8,
+                  ),
+                  Text(
+                    "2 saves - 50h 8m",
+                    style: TextStyle(
+                      fontSize: 12,
+                      color: Colors.grey,
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ],
+              )
             ],
           ),
         ),
