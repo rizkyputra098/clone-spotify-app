@@ -1,0 +1,2 @@
+/home/feldora/Documents/Flutter/spotify_clone_app/android/app/.cxx/Debug/6g28z6h3/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/feldora/Documents/Flutter/spotify_clone_app/android/app/.cxx/Debug/6g28z6h3/armeabi-v7a/CMakeFiles/rebuild_cache.dir

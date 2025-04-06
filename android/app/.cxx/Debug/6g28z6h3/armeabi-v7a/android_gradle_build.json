@@ -1,0 +1,28 @@
+{
+  "buildFiles": [
+    "/home/feldora/snap/flutter/common/flutter/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/feldora/Android/Sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/feldora/Documents/Flutter/spotify_clone_app/android/app/.cxx/Debug/6g28z6h3/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/feldora/Android/Sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/feldora/Documents/Flutter/spotify_clone_app/android/app/.cxx/Debug/6g28z6h3/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {},
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/feldora/Android/Sdk/ndk/26.3.11579264/toolchains/llvm/prebuilt/linux-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/home/feldora/Android/Sdk/ndk/26.3.11579264/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": []
+}
